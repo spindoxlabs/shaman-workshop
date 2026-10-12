@@ -1,0 +1,11 @@
+# All deadlines are Anywhere on Earth (AoE).
+# Set `old` to the original date when a deadline gets extended, to show it struck through.
+- event: Paper submission deadline
+  date: "18 December 2026"
+- event: Author notification
+  date: "20 January 2027"
+- event: Camera-ready paper due
+  date: "TBA"
+- event: Workshop day
+  date: "6 April 2027"
+  highlight: true

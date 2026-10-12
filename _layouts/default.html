@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+</head>
+<body>
+  {% include header.html %}
+
+  {% if page.hero %}
+    {% include hero.html %}
+  {% else %}
+  <section class="page-banner">
+    <div class="container">
+      <p class="eyebrow">{{ site.title }} @ {{ site.conference.name }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}
+    </div>
+  </section>
+  {% endif %}
+
+  <main class="container content">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>

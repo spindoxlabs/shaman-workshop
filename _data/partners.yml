@@ -1,0 +1,9 @@
+- name: Shift2SDV
+  description: Chips JU project supporting the workshop
+  url: https://shift2sdv-project.eu/
+- name: FEDERATE
+  description: European SDV community
+  url: https://federate-sdv.eu/
+- name: EDCC 2027
+  description: 22nd European Dependable Computing Conference
+  url: https://edcc2027.idi.ntnu.no/

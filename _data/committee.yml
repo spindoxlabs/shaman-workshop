@@ -1,0 +1,36 @@
+chairs:
+  - name: Eirini Liotou
+    role: Workshop Co-chair
+    affiliation: Harokopio University of Athens, Greece
+    photo: "" # optional, e.g. /assets/img/eirini-liotou.jpg
+    bio: >-
+      Eirini Liotou is an Assistant Professor at the Department of Informatics
+      and Telematics of Harokopio University of Athens since 2024. She holds a
+      PhD from the Department of Informatics and Telecommunications at the
+      National and Kapodistrian University of Athens, an MSc in Informatics and
+      Telecommunications from the same university, an MSc in Communications and
+      Signal Processing from Imperial College London, and a Diploma in
+      Electrical and Computer Engineering from the National Technical University
+      of Athens. She has worked as a Senior Software Engineer at Siemens
+      Enterprise Communications (R&D), as a Post-Doc researcher at NKUA, and as
+      a Scientific Project Manager for EU research projects at ICCS. She has
+      authored more than 30 peer-reviewed publications and serves as an EC
+      expert reviewer. Her research interests revolve around 6G mobile
+      networks, SDN, NFV, AI in networking and network emulation, as well as
+      Software-Defined Vehicles (SDVs) and V2X communications.
+  - name: Mario Conci
+    role: Workshop Co-chair
+    affiliation: Spindox Labs, Italy
+    photo: ""
+    bio: >-
+      Mario Conci works as EU Project Manager at Spindox Labs. He has extensive
+      experience in European research and innovation projects, stakeholder
+      engagement and community building. Over the years, he has designed,
+      organised and supported workshops, collaborative sessions and project
+      events involving research organisations, public authorities and
+      companies, across areas such as smart cities and digital innovation.
+
+# Technical Program Committee — to be completed.
+tpc: []
+#  - name: Jane Doe
+#    affiliation: University of Somewhere, Country

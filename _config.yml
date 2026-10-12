@@ -1,0 +1,46 @@
+title: "SHAMAN 2027"
+acronym: "SHAMAN"
+edition: "1st"
+long_title: "Software-defined veHicles: towArds Mixed-criticality AssuraNce"
+description: >-
+  SHAMAN 2027 — 1st Workshop on Software-defined veHicles: towArds
+  Mixed-criticality AssuraNce, co-located with the 22nd European Dependable
+  Computing Conference (EDCC 2027), Trondheim, Norway.
+
+# Overridden automatically by the GitHub Pages workflow (configure-pages base_path).
+url: ""
+baseurl: ""
+
+workshop:
+  date: "6 April 2027"
+  format: "Half-day workshop"
+  location: "Trondheim, Norway"
+  contact_email: "shaman-workshop@example.org" # TODO: replace with the real contact address
+  submission_url: "" # TODO: set the submission system link (e.g., EasyChair/HotCRP) when open
+
+conference:
+  name: "EDCC 2027"
+  full_name: "22nd European Dependable Computing Conference"
+  dates: "6-9 April 2027"
+  location: "Trondheim, Norway"
+  url: "https://edcc2027.idi.ntnu.no/"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - vendor
+  - .bundle
+  - "*.docx"

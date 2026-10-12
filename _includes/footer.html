@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>{{ site.title }}</h3>
+      <p>{{ site.edition }} Workshop on {{ site.long_title }}, co-located with the
+        <a href="{{ site.conference.url }}">{{ site.conference.full_name }}</a>,
+        {{ site.conference.dates }}, {{ site.conference.location }}.</p>
+    </div>
+    <div>
+      <h3>Supported by</h3>
+      <ul class="plain">
+        {% for p in site.data.partners %}
+          <li><a href="{{ p.url }}">{{ p.name }}</a> &mdash; {{ p.description }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p><a href="mailto:{{ site.workshop.contact_email }}">{{ site.workshop.contact_email }}</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} Organizing Committee</p>
+  </div>
+</footer>

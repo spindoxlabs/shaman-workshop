@@ -1,0 +1,13 @@
+<table class="dates-table">
+  <thead>
+    <tr><th>Milestone</th><th>Date (AoE)</th></tr>
+  </thead>
+  <tbody>
+    {% for d in site.data.dates %}
+    <tr{% if d.highlight %} class="highlight"{% endif %}>
+      <td>{{ d.event }}</td>
+      <td>{% if d.old %}<del>{{ d.old }}</del> &rarr; {% endif %}<strong>{{ d.date }}</strong></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
