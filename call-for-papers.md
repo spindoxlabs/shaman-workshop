@@ -7,77 +7,12 @@ permalink: /call-for-papers/
 
 ## Scope
 
-Software-defined vehicles (SDVs) consolidate functions of very different criticality — from braking and ADAS to
-infotainment — onto centralized, high-performance and continuously updateable computing platforms, increasingly built on
-open-source software stacks. This shift promises flexibility and scalability, but challenges established fault-tolerance,
-safety and certification practices.
-
-SHAMAN 2027 invites researchers and practitioners from academia and industry to present and discuss novel ideas,
-preliminary results, practical experience and open challenges on the **dependability, safety and security of SDVs**.
-The workshop welcomes both mature research and work in progress, as well as position papers and industrial experience
-reports that can stimulate discussion.
+TBD
 
 ## Topics of Interest
 
 Topics of interest include, but are not limited to:
-
-<div class="grid grid-2">
-  <div class="card">
-    <h3>Architectures &amp; platforms</h3>
-    <ul>
-      <li>Architectural patterns for mixed-criticality SDV systems</li>
-      <li>Zonal and centralized E/E architectures</li>
-      <li>Virtualization, hypervisors and containerization for automotive</li>
-      <li>Open-source SDV stacks and middleware</li>
-      <li>Fault containment and freedom from interference</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Timing &amp; real-time</h3>
-    <ul>
-      <li>Real-time scheduling on shared multicore/heterogeneous platforms</li>
-      <li>Timing isolation and resource partitioning</li>
-      <li>Deterministic and time-sensitive networking (TSN)</li>
-      <li>WCET and end-to-end latency analysis</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Runtime dependability &amp; resilience</h3>
-    <ul>
-      <li>Fault tolerance and graceful degradation</li>
-      <li>Anomaly detection, diagnosis and mitigation</li>
-      <li>Failure-aware orchestration of vehicle software</li>
-      <li>Dependable over-the-air (OTA) updates and lifecycle management</li>
-      <li>Runtime monitoring and runtime assurance</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Safety, security &amp; certification</h3>
-    <ul>
-      <li>Safety and security co-engineering for SDVs</li>
-      <li>Certification and continuous assurance (e.g., ISO 26262, ISO 21448, ISO/SAE 21434)</li>
-      <li>Safety and assurance cases for updateable software</li>
-      <li>Verification, validation and testing of SDV software</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>AI for and in SDVs</h3>
-    <ul>
-      <li>Trustworthy and explainable AI for automotive functions</li>
-      <li>AI-driven adaptation and self-healing for resilience</li>
-      <li>Dependability of AI-enabled components and toolchains</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Humans, connectivity &amp; edge</h3>
-    <ul>
-      <li>Human–computer interaction and coordination with drivers and passengers</li>
-      <li>V2X communications and vehicle–edge–cloud continuum</li>
-      <li>Network softwarization (SDN/NFV) for vehicles</li>
-      <li>Industrial case studies and experience reports</li>
-    </ul>
-  </div>
-</div>
+- TBD
 
 ## Submission Guidelines
 

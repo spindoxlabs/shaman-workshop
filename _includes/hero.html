@@ -1,7 +1,8 @@
 <section class="hero">
   <div class="container hero-inner">
     <p class="eyebrow">{{ site.edition }} International Workshop &middot; co-located with
-      <a href="{{ site.conference.url }}">{{ site.conference.name }}</a></p>
+      <a href="{{ site.conference.url }}">{{ site.conference.name }}</a>
+    </p>
     <h1 class="hero-title">{{ site.title }}</h1>
     <p class="hero-subtitle">
       <strong>S</strong>oftware-defined ve<strong>H</strong>icles: tow<strong>A</strong>rds
@@ -15,10 +16,11 @@
     <div class="hero-actions">
       <a class="btn btn-primary" href="{{ '/call-for-papers/' | relative_url }}">Call for Papers</a>
       {% if site.workshop.submission_url != "" %}
-        <a class="btn btn-ghost" href="{{ site.workshop.submission_url }}">Submit a Paper</a>
+      <a class="btn btn-ghost" href="{{ site.workshop.submission_url }}">Submit a Paper</a>
       {% else %}
-        <a class="btn btn-ghost" href="{{ '/important-dates/' | relative_url }}">Important Dates</a>
+      <a class="btn btn-ghost" href="{{ '/important-dates/' | relative_url }}">Important Dates</a>
       {% endif %}
     </div>
   </div>
+  <p class="hero-credit">Photo by Sébastien Goldberg</p>
 </section>

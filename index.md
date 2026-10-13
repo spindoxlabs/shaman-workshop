@@ -11,42 +11,18 @@ hero: true
 
 ## About the Workshop
 
-The automotive industry is undergoing a paradigm shift from fully proprietary, hardware-centric to partially open-source,
-**software-defined vehicles (SDVs)**, where software primarily governs functionality and enables continuous updates and new
-capabilities throughout the vehicle's lifecycle. This transition promises enhanced flexibility and scalability, but also
-introduces new challenges across **dependability, safety, and security**.
+The automotive industry is undergoing a paradigm shift from fully proprietary, hardware-centric to partially open-source, software-defined vehicles (SDVs), where software primarily governs functionality and enables continuous updates and new capabilities throughout the vehicle's lifecycle. 
 
-The tight integration of applications with **mixed criticality** — from safety-critical braking to infotainment — on shared
-platforms demands novel approaches to fault tolerance, real-time scheduling, timing isolation, anomaly detection and
-mitigation, and failure-aware orchestration. It also raises challenges in coordinating human actors, such as drivers and
-passengers, and in supporting effective human–computer interaction (HCI).
+This transition promises enhanced flexibility and scalability, but also introduces new challenges across dependability, safety, and security. The  integration of applications with mixed criticality, from safety-critical braking to infotainment, on shared platforms demands novel approaches to fault tolerance, real-time scheduling, timing and resource isolation, anomaly detection and mitigation, failure-aware orchestration, as well as verification and runtime assurance. It also raises challenges in coordinating human actors, such as drivers and passengers, and in supporting effective human–computer interaction (HCI) and appropriate human trust in increasingly autonomous and adaptive vehicle functions.
 
-Supported by the [Shift2SDV](https://shift2sdv-project.eu/) Chips JU project, this workshop aims to bring together
-researchers and practitioners to explore the dependability challenges related to SDVs, including architectural patterns
-for mixed-criticality systems, virtualization and containerization strategies, deterministic networking, trustworthy AI,
-and AI-driven adaptation for resilience.
+Supported by the Shift2SDV Chips-EU project, SHAMAN aims to bring together researchers and practitioners to explore the dependability and assurance challenges related to SDVs, including architectural patterns for mixed-criticality systems, virtualization and containerization strategies, deterministic networking, trustworthy AI, and AI-driven adaptation for resilience.
 
 ## Why SHAMAN at EDCC?
 
-SHAMAN directly addresses EDCC's core mission of advancing dependable computing in safety-critical domains. SDVs represent
-a frontier where dependability challenges — mixed-criticality integration, timing isolation, fault containment, and
-security co-engineering — converge on centralized, updateable platforms. These challenges test traditional fault-tolerance
-and certification processes, demanding innovative solutions in design, verification, and runtime assurance.
+This workshop directly addresses EDCC's core mission of advancing dependable computing in safety-critical domains. Software-defined vehicles (SDVs) represent a frontier where dependability and assurance challenges, mixed-criticality integration, timing and resource isolation, fault containment, and security co-engineering converge on centralized, updateable platforms. These challenges test traditional fault-tolerance, verification, and certification processes, demanding innovative solutions in system design, validation, resilience, and runtime assurance.
 
-<div class="grid grid-3">
-  <div class="card accent">
-    <h3>Mixed-criticality</h3>
-    <p>Safe coexistence of safety-critical and non-critical functions on shared, centralized compute platforms.</p>
-  </div>
-  <div class="card accent">
-    <h3>Runtime assurance</h3>
-    <p>Fault tolerance, anomaly detection and failure-aware orchestration for continuously updated vehicles.</p>
-  </div>
-  <div class="card accent">
-    <h3>Trustworthy AI</h3>
-    <p>Dependable, secure and explainable AI, and AI-driven adaptation for resilient SDVs.</p>
-  </div>
-</div>
+This workshop offers the EDCC community a timely opportunity to contribute to the dependability roadmap of an industry undergoing radical transformation, while advancing methods and technologies for  safe, secure, trustworthy, and resilient next-generation automotive software systems. 
+
 
 <p style="margin-top:1.5rem"><a class="btn btn-primary" href="{{ '/call-for-papers/' | relative_url }}">Read the full Call for Papers &rarr;</a></p>
 
@@ -54,13 +30,13 @@ and certification processes, demanding innovative solutions in design, verificat
 
 {% include dates-table.html %}
 
-## News
+## Related Initiatives
 
-<ul class="news">
-{% for n in site.data.news %}
-  <li>
-    <span class="when">{{ n.date }}</span>
-    <div class="what">{{ n.text | replace: '](/', '](BASEURL/' | replace: 'BASEURL', site.baseurl | markdownify }}</div>
-  </li>
+<div class="grid grid-3">
+{% for p in site.data.partners %}
+  <div class="card">
+    <h3><a href="{{ p.url }}">{{ p.name }}</a></h3>
+    <p>{{ p.description }}</p>
+  </div>
 {% endfor %}
-</ul>
+</div>

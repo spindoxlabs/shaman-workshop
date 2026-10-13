@@ -9,14 +9,9 @@ The workshop program will be published after the author notification. SHAMAN 202
 **half-day event** on **{{ site.workshop.date }}** (it may become a full-day event depending on the number of accepted papers).
 </div>
 
-## Tentative Schedule
+<!-- ## Tentative Schedule
 
 | Time | Session |
 |------|---------|
 | TBA  | Opening and welcome |
-| TBA  | Keynote talk |
-| TBA  | Paper session 1 |
-| TBA  | Coffee break |
-| TBA  | Paper session 2 |
-| TBA  | Panel discussion: dependability roadmap for software-defined vehicles |
-| TBA  | Closing remarks |
+ -->
