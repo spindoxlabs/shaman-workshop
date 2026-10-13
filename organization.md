@@ -6,7 +6,7 @@ permalink: /organization/
 
 ## Workshop Chairs
 
-<div class="grid grid-2">
+<div class="grid grid-1">
 {% for p in site.data.committee.chairs %}
   <div class="card person">
     {% if p.photo and p.photo != "" %}
@@ -34,7 +34,7 @@ permalink: /organization/
 {% endfor %}
 </ul>
 {% else %}
-<p>The Technical Program Committee, composed of international experts in the automotive and dependability domains, will be announced soon.</p>
+<p>TBD</p>
 {% endif %}
 
 ## Contact

@@ -15,7 +15,7 @@ workshop:
   date: "6 April 2027"
   format: "Half-day workshop"
   location: "Trondheim, Norway"
-  contact_email: "shaman-workshop@example.org" # TODO: replace with the real contact address
+  contact_email: "tommaso.puccetti@unifi.it"
   submission_url: "" # TODO: set the submission system link (e.g., EasyChair/HotCRP) when open
 
 conference:
