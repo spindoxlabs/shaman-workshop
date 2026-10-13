@@ -3,6 +3,8 @@
 Website of **SHAMAN 2027 — 1st Workshop on Software-defined veHicles: towArds Mixed-criticality AssuraNce**,
 co-located with [EDCC 2027](https://edcc2027.idi.ntnu.no/) (Trondheim, Norway, 6–9 April 2027).
 
+Website: [https://spindoxlabs.github.io/shaman-workshop/](https://spindoxlabs.github.io/shaman-workshop)
+
 Built with [Jekyll](https://jekyllrb.com/).
 
 ## Local development
