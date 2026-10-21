@@ -2,7 +2,7 @@ chairs:
 - name: Tommaso Puccetti
     role: Workshop Co-chair
     affiliation: University of Florence, Italy
-    photo: "" # optional, e.g. /assets/img/eirini-liotou.jpg
+    photo: "/assets/img/tommaso-puccetti.jpg"
     bio: >-
       Tommaso Puccetti is a Postdoctoral Researcher at the Department of Mathematics and Computer Science of the University of Florence, Italy, where he received his PhD in Computer Science in 2026.
       His research focuses on two main areas: the verification and validation of railway systems in compliance with safety-critical standards,
