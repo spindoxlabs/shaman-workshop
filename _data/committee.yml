@@ -1,4 +1,16 @@
 chairs:
+- name: Tommaso Puccetti
+    role: Workshop Co-chair
+    affiliation: Harokopio University of Athens, Greece
+    photo: "" # optional, e.g. /assets/img/eirini-liotou.jpg
+    bio: >-
+      Tommaso Puccetti is a Postdoctoral Researcher at the Department of Mathematics and Computer Science of the University of Florence, Italy, where he received his PhD in Computer Science in 2026.
+      His research focuses on two main areas: the verification and validation of railway systems in compliance with safety-critical standards,
+      and the development of Machine Learning-based network intrusion detection techniques to enhance cybersecurity. His work combines methodological approaches with practical implementations.
+      Over the past five years, he has contributed to several research and industrial projects in the railway domain, 
+      collaborating with Rete Ferroviaria Italiana (RFI) on certification, verification, and validation processes. 
+      He has also participated in national and European research initiatives, including SPaCe, PRIN FLEGREA, and the ECM ERTMS Evolution Program.
+      He actively contributes to the international research community as a member of the Technical Program Committees of conferences and workshops in cybersecurity, dependable systems, and artificial intelligence.
   - name: Eirini Liotou
     role: Workshop Co-chair
     affiliation: Harokopio University of Athens, Greece
