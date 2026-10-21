@@ -5,14 +5,21 @@ subtitle: "SHAMAN 2027 — Software-defined veHicles: towArds Mixed-criticality 
 permalink: /call-for-papers/
 ---
 
-## Scope
+## Scope and Topics of Interest
+The SHAMAN workshop invites original research contributions addressing dependability, safety, security, and assurance challenges in Software-Defined Vehicles (SDVs). Topics of interest include, but are not limited to:
 
-TBD
-
-## Topics of Interest
-
-Topics of interest include, but are not limited to:
-- TBD
+- Dependable and secure architectures and design principles;
+- Mixed-criticality systems and application isolation;
+- Fault tolerance, resilience, and failure management;
+- Real-time scheduling, timing analysis, and resource management;
+- Deterministic networking and in-vehicle communication;
+- Intrusion detection, anomaly detection, and mitigation;
+- Trustworthy AI and AI-driven adaptation for resilient vehicles;
+- Verification, validation, and runtime assurance;
+- Failure-aware orchestration and lifecycle management;
+- Human–computer interaction, human factors, and trust in autonomous vehicle functions;
+- Dependability assessment, testing, and validation of SDVs;
+- Industrial case studies, tools, and experimental evaluations for SDV assurance.
 
 ## Submission Guidelines
 
