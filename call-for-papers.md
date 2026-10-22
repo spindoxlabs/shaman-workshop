@@ -39,7 +39,7 @@ Submissions must be original, unpublished work that is not under review elsewher
 
 ## Review Process
 
-Each paper will be reviewed by **at least three** members of the international Technical Program Committee, composed of
+All submitted papers will be evaluated through a single-blind peer-review process. Each paper will be reviewed by **at least three** members of the international Technical Program Committee, composed of
 experts in the automotive and dependability domains. Papers will be evaluated on originality, relevance to the workshop,
 technical soundness, and clarity of presentation.
 
