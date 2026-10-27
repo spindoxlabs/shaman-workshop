@@ -24,7 +24,7 @@ The SHAMAN workshop invites original research contributions addressing dependabi
 ## Submission Guidelines
 
 <div class="callout warn" markdown="1">
-Detailed formatting instructions are aligned with the EDCC 2027 (see https://edcc2027.idi.ntnu.no/call-for-papers/).
+Detailed formatting instructions are aligned with the EDCC 2027 [author instructions](https://edcc2027.idi.ntnu.no/call-for-papers/).
 </div>
 
 We solicit the following types of contributions:
