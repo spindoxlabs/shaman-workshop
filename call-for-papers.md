@@ -33,8 +33,9 @@ We solicit the following types of contributions:
 - **Short papers** presenting work in progress, position papers, or tool/prototype descriptions.
 - **Industrial experience reports** describing practical challenges and lessons learned in the SDV domain.
 
-Submissions must be original, unpublished work that is not under review elsewhere, written in English.
-{% if site.workshop.submission_url != "" %}Papers must be submitted electronically via [the submission system]({{ site.workshop.submission_url }}).{% else %}The link to the submission system will be made available on this page.{% endif %}
+Submissions must be original, unpublished work that is not under review elsewhere, and must be written in English.
+
+Papers must be submitted electronically via the [SHAMAN 2027 EasyChair submission page](https://easychair.org/conferences/?conf=shaman2027).
 
 ## Review Process
 
